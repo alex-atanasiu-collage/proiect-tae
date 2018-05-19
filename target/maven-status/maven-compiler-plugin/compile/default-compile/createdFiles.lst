@@ -1,5 +1,11 @@
-com\ebuss\tae\ipieptea\tae\repository\UserRepository.class
-com\ebuss\tae\ipieptea\tae\TaeApplication.class
-com\ebuss\tae\ipieptea\tae\controller\MainController.class
+com\ebuss\tae\ipieptea\tae\entity\Transformation.class
+com\ebuss\tae\ipieptea\tae\repository\TransformationRepository.class
+com\ebuss\tae\ipieptea\tae\bean\XSLTProvider.class
 com\ebuss\tae\ipieptea\tae\entity\User.class
+com\ebuss\tae\ipieptea\tae\bean\XSLTProviderImpl.class
+com\ebuss\tae\ipieptea\tae\repository\UserRepository.class
+com\ebuss\tae\ipieptea\tae\controller\MainController.class
+com\ebuss\tae\ipieptea\tae\controller\TransformController.class
 com\ebuss\tae\ipieptea\tae\controller\SampleController.class
+com\ebuss\tae\ipieptea\tae\TaeApplication.class
+com\ebuss\tae\ipieptea\tae\config\AppConfig.class

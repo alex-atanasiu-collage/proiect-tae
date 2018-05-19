@@ -55,6 +55,13 @@
 			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/net.sf.saxon/Saxon-HE -->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20171018</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>

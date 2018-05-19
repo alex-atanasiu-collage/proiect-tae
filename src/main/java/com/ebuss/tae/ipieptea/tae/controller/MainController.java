@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.ebuss.tae.ipieptea.tae.entity.User;
-import com.ebuss.tae.ipieptea.tae.repository. UserRepository;
+import com.ebuss.tae.ipieptea.tae.repository.UserRepository;
 
 @Controller    // This means that this class is a Controller
 @RequestMapping(path="/demo") // This means URL's start with /demo (after Application path)
