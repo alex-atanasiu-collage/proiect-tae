@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32bdd768-6a60-4717-bdb5-a0683299df76" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/bean/XSLTProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/bean/XSLTProviderImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/controller/TransformController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/entity/Transformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/repository/TransformationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/xslt/template.xslt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/TaeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/TaeApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/controller/SampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/controller/SampleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.ebuss.tae.ipieptea.tae.TaeApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.ebuss.tae.ipieptea.tae.TaeApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.ebuss.tae.ipieptea.tae.TaeApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.ebuss.tae.ipieptea.tae.TaeApplicationTests.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tae-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/tae-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/bean/XSLTProviderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/bean/XSLTProviderImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/controller/TransformController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/controller/TransformController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,13 +29,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TransformController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TransformController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/controller/TransformController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+            <state relative-caret-position="44">
+              <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XSLTProviderImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/bean/XSLTProviderImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1013#1014#0" expanded="true" />
+                <element signature="e#1040#1041#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,29 +56,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" column="18" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XSLTProviderImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/bean/XSLTProviderImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/config/AppConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -115,8 +89,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/repository/TransformationRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/bean/XSLTProvider.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/config/AppConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/bean/XSLTProviderImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/xslt/template.xslt" />
         <option value="$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/controller/TransformController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/bean/XSLTProviderImpl.java" />
       </list>
     </option>
   </component>
@@ -215,6 +190,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="proiect-tae" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proiect-tae" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="xslt" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -226,7 +209,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="maven&#9;ACTION&#9;ActivateMavenProjectsToolWindow&#10;pom&#9;FILE&#9;file://C:/Mine/An 1/TAE/proiect-tae/proiect-tae/pom.xml&#10;mave&#9;ACTION&#9;ActivateMavenProjectsToolWindow&#10;pom.xml&#9;FILE&#9;file://D:/Workspace/tae/pom.xml" />
+    <property name="SearchEverywhereHistoryKey" value="XSLtprov&#9;FILE&#9;file://C:/Mine/An 1/TAE/proiect-tae/proiect-tae/src/main/java/com/ebuss/tae/ipieptea/tae/bean/XSLTProviderImpl.java&#10;maven&#9;ACTION&#9;ActivateMavenProjectsToolWindow&#10;pom&#9;FILE&#9;file://C:/Mine/An 1/TAE/proiect-tae/proiect-tae/pom.xml&#10;mave&#9;ACTION&#9;ActivateMavenProjectsToolWindow&#10;pom.xml&#9;FILE&#9;file://D:/Workspace/tae/pom.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -355,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526725627350</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added XSLT bean, caching in database, conversion using XSLT">
+      <created>1526759112223</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1526759112223</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -373,11 +363,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.17057292" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32827586" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32827586" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24739583" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24739583" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -406,7 +396,13 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added JPA support" />
     <MESSAGE value="Added JPA support 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added JPA support 2" />
+    <MESSAGE value="added XSLT bean, caching in database, conversion using XSLT" />
+    <option name="LAST_COMMIT_MESSAGE" value="added XSLT bean, caching in database, conversion using XSLT" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/entity/User.java">
@@ -442,9 +438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -649,13 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/bean/XSLTProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/config/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -668,10 +654,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/bean/XSLTProviderImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/bean/XSLTProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="51">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/xslt/template.xslt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/controller/TransformController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -685,12 +685,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/controller/TransformController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ebuss/tae/ipieptea/tae/bean/XSLTProviderImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
           </folding>
         </state>
       </provider>

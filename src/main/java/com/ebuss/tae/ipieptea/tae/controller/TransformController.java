@@ -17,7 +17,6 @@ import java.io.StringReader;
 import java.io.StringWriter;
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
 @Controller
@@ -35,9 +34,8 @@ public class TransformController {
     public @ResponseBody String xml2json (@RequestBody String xml) {
         String rawXml = xml;
         String rawXslt = xsltProvider.getXSLT();
-        
+
         if(transformationCache == null) {
-            //transformationCache = StreamSupport.stream(transformationRepository.findAll().spliterator(), false);
             transformationCache = transformationRepository.findAll();
         }
 
@@ -62,7 +60,7 @@ public class TransformController {
                 transformation.setJson(json);
                 transformationRepository.save(transformation);
 
-                //transformationCache = StreamSupport.stream(transformationRepository.findAll().spliterator(), false);
+                // after adding we recache the list
                 transformationCache = transformationRepository.findAll();
 
                 return json;
