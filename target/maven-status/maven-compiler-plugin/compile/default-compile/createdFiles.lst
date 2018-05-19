@@ -1,2 +1,5 @@
-com\ebuss\tae\ipieptea\tae\controller\SampleController.class
+com\ebuss\tae\ipieptea\tae\repository\UserRepository.class
 com\ebuss\tae\ipieptea\tae\TaeApplication.class
+com\ebuss\tae\ipieptea\tae\controller\MainController.class
+com\ebuss\tae\ipieptea\tae\entity\User.class
+com\ebuss\tae\ipieptea\tae\controller\SampleController.class
